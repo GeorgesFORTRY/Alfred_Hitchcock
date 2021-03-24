@@ -1,0 +1,14 @@
+body {
+    background-image: url(img/alfrederror.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    
+}
+
+h1 {
+    padding-top: 80px;
+    font-size: 60px;
+
+}
