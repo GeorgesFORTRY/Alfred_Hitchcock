@@ -76,3 +76,35 @@ nav > ul li:hover .sous{
 }
 
 
+
+.entete a{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+
+}
+
+.titre {
+    font-size: 90px;
+    text-align: left;
+    padding: 70px;
+    padding-right: 150px;
+    font-family: 'Syne Mono', monospace;
+}
+
+.titre:hover {
+    transform: scale(1.5);
+}
+.logo {
+    height: 200px;
+    width: 150px;
+    overflow: hidden;
+}
+
+#silouhette {
+    height: 100%;
+    width: 100%;
+}
+
+
