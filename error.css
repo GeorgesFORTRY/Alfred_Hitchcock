@@ -3,11 +3,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
-    align-items:flex-end;
-    
+    justify-content: center;        
 }
-
 h1 {
     padding-top: 80px;
     font-size: 60px;

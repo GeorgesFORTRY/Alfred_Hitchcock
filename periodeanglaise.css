@@ -2,16 +2,31 @@ h1 {
     text-align: center;
     font-family: 'Averia Serif Libre', cursive;
     font-size: 90px;
+    padding-bottom: 90px;
 }
 
-
+section {
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;      
+  padding: 100px;
+  border: 150px solid black;
+  background-image: url("img/drapeau_anglais.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 130px;
+ 
+}
 
 table {
     
+    align-self: center;
     table-layout: auto;
     width: 500px;
     border-collapse: collapse;
     border: 3px solid black;
+    font-family: 'Averia Serif Libre', cursive;
   }
   
   th,
@@ -22,4 +37,12 @@ table {
   
   thead th {
     background-color: rgb(139, 179, 179);
+    font-weight: bold;
+    font-size: 20px;
   }
+
+  tbody td:first-child {
+    font-weight: bold;
+  }
+
+  

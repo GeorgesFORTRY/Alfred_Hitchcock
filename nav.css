@@ -1,21 +1,15 @@
 /*Reset CSS*/
 .menu{
-    
     padding: 30px;
-    font-family: Avenir, sans-serif;
-}
-
-.menu{
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    position: sticky;
     top: 0px;
-
 }
 
 .menu ul{
     list-style-type: none;
+    padding-bottom: 15px ;
 }
 
 .deroulant{
@@ -24,65 +18,49 @@
     text-align: center;
     position: relative;
     font-family: 'Syne Mono', monospace;
-
-    
-}
-
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
 }
 
 nav a{
     display: block;
     text-decoration: none;
     color: black;
-    border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
 
 nav a:hover{
     color: rgb(78, 78, 77);
-    border-bottom: 2px solid rgb(78, 78, 77);
-}
+    }
 
 .sous{
     display: none;
     box-shadow: 0px 1px 2px #CCC;
     background-color: white;
-    position: relative;
     width: 100%;
-    z-index: 1;
 }
-nav > ul li:hover .sous{
+
+.deroulant:hover .sous{
     display: block;
-}
-.sous li{
-    float: none;
-    width: 100%;
-    text-align: center;
-    }
-.sous a{
-    padding: 10px;
-    border-bottom: none;
-}
-.sous a:hover{
-    border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
-    position :relative;
-    z-index: 1;
+    position: absolute;
     
 }
 
+.sous li{
+    text-align: center;
+}
+    
+.sous a{
+    padding: 10px;
+}
 
+.sous a:hover{
+    background-color: rgba(97, 96, 96, 0.1);
+}
 
 .entete a{
     display: flex;
     justify-content: space-around;
     text-decoration: none;
     color: black;
-
 }
 
 .titre {
@@ -96,6 +74,7 @@ nav > ul li:hover .sous{
 .titre:hover {
     transform: scale(1.5);
 }
+
 .logo {
     height: 200px;
     width: 150px;
